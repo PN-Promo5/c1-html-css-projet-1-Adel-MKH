@@ -1,0 +1,81 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .container {
+    width: 100%;
+  }
+
+.complet {
+  display: none!important;
+}
+
+.Avantages {
+  display: grid;
+}
+
+.box {
+  width: 90%;
+}
+
+.bg_wicker_1 {
+  height: 1700px;
+}
+
+.product-row {
+  display: grid;
+}
+
+.product-row .product {
+  margin-right: 0;
+}
+
+.product {
+  margin-bottom: 20px;
+}
+
+.adapt {
+  height: 165px;
+}
+
+.Email {
+  margin: 0 10px;
+}
+
+.row {
+  justify-content: space-around;
+}
+
+.bg_green {
+  height: 250px;
+}
+
+.adapt_2 {
+  height: 430px
+}
+
+.avis {
+  display: grid;
+}
+
+footer {
+  height: 1000px;
+}
+
+.footer-top, .footer-right, .list-footer {
+  display: grid;
+}
+
+input, textarea {
+  width: 100%
+}
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  /* Styles */
+}
