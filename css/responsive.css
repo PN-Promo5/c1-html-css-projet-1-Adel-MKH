@@ -74,7 +74,7 @@ h1 {
 }
 
 footer {
-  height: 1050px;
+  height: 1100px;
 }
 
 .footer-top, .footer-right, .list-footer {
@@ -82,9 +82,9 @@ footer {
   flex-direction: column;
 }
 
-.pseo {
+.p-seo {
   margin: 10px;
-  width: 95%;
+  width: 95%!important;
 }
 
 .footer-left img {
