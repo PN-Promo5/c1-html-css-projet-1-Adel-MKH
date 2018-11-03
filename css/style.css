@@ -105,34 +105,45 @@ header {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 h1 {
-  margin-left: 20px;
-  color: white
+  margin: 50px 0 0 20px;
+  color: white;
 }
 
 .btn_1 {
-  width: 150px;
-  margin: 30px;
+  margin: 0 0 25px 20px;
   border-radius: 20px;
   cursor: pointer;
   background-color: #ffffff;
   font-size: 1.1rem;
   border-width: 0px;
-  padding: 10px 60px;
+  padding: 10px 50px;
   color: #333;
-  margin-top: 5px;
 }
+
 
 .bg_1 {
   background-color: #efefef;
-  height: 600px;
+  height: 670px;
   padding-top: 5px;
 }
 
 h2 {
-  margin: 10px 0;
+  margin: 20px 30px;
+}
+
+#concept {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#intro {
+  text-align: justify;
+  width: 500px;
 }
 
 .Avantages {
@@ -142,26 +153,16 @@ h2 {
 
 .box {
   margin: 15px auto 0;
-  text-align: left;
+  text-align: center;
   padding: 30px 5px;
-  box-shadow: 0px 3px 16px grey;
-  border-radius: 20px;
-  background-color: #b2de4f;
-  transition: 0.5s;
   list-style-type: none;
   width: 30%;
+  display: flex;
+  flex-direction: column;
 }
 
-.box:hover {
-  box-shadow: 10px 10px 10px black;
-}
-
-.box ul {
-  list-style-type: disc;
-}
-
-h4 {
-  margin-left: 15px;
+.icon_1 {
+font-size: 80px;
 }
 
 .icon {
@@ -221,7 +222,7 @@ article:hover {
 
 .product-body {
   font-size: 1.3rem;
-  height: 160px;
+  height: 180px;
   background-color: white;
 }
 
@@ -244,7 +245,7 @@ article:hover {
 
 .bouttons {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 10px;
   align-items: center;
 }
@@ -253,26 +254,27 @@ article:hover {
   display: inline-block;
   color: black;
   text-decoration: none;
-  padding: 10px 60px;
+  padding: 10px 50px;
   border-radius: 50px;
 }
 
 .btn:hover {
-  color: white;
+  color: grey;
   transition: 0.5s;
 }
 
 .btn-fav {
-  padding: 0px 1àpx;
+  padding: 0px 1px;
 }
 
 .btn-buy {
-  background-color: #b2de4f;
+  background-color: #aada3c;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .bg-red {
   background-color: #e52c20;
+  margin-top: -20px;
 }
 
 .promo {
@@ -291,20 +293,19 @@ article:hover {
 }
 
 .newsletter {
-  padding-right: 20px;
+  padding: 20px;
   height: 20px;
   text-align: center;
 }
 
 .bg_green {
-  background-color: #adc35a;
-  height: 150px;
+  background-color: #aada3c;
+  height: 170px;
   padding-top: 15px;
 }
 
 .adapt_2 {
-  height: 200px;
-  padding-top: 5px;
+  height: 290px;
 }
 
 .avis {
@@ -318,6 +319,11 @@ article:hover {
   align-items: center;
 }
 
+.border_clients {
+  box-shadow: 0px 3px 16px grey;
+  border-radius: 20px;
+}
+
 .star {
   color: yellow;
 }
@@ -325,13 +331,13 @@ article:hover {
 /*FOOTER*/
 footer {
   background-color: black;
-  height: 510px;
+  height: 460px;
 }
 
 .footer-top {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 /*FORM*/
@@ -387,8 +393,10 @@ input.button:hover {
 
 .footer-top p.p-seo {
   padding: 40px 20px 0 0;
-  text-align: left;
+  text-align: justify;
   color: white;
+  width: 500px;
+  margin-bottom: 20px;
 }
 
 .footer-left {
@@ -428,4 +436,12 @@ ul h6 {
 p.copyright {
   margin-top: 20px;
   text-align: center;
+}
+
+#up {
+  color: #aada3c;
+  position: fixed;
+  font-size: 50px;
+  bottom: 30px;
+  right: 50px;
 }

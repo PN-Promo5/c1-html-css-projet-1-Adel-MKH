@@ -8,6 +8,23 @@
   display: none!important;
 }
 
+h1 {
+  margin: 170px 0 0 10px;
+}
+
+.btn_1 {
+  margin: 10px 0 20px 10px;
+}
+
+#concept {
+  flex-direction: column;
+}
+
+#intro {
+  width: 95%;
+  margin: 10px;
+}
+
 .Avantages {
   display: grid;
 }
@@ -16,8 +33,8 @@
   width: 90%;
 }
 
-.bg_wicker_1 {
-  height: 1700px;
+.bg_1 {
+  height: 1820px;
 }
 
 .product-row {
@@ -32,8 +49,8 @@
   margin-bottom: 20px;
 }
 
-.adapt {
-  height: 165px;
+.bg_green {
+  height: 275px;
 }
 
 .Email {
@@ -45,11 +62,11 @@
 }
 
 .bg_green {
-  height: 250px;
+  height: 275px;
 }
 
 .adapt_2 {
-  height: 430px
+  height: 775px
 }
 
 .avis {
@@ -57,15 +74,30 @@
 }
 
 footer {
-  height: 1000px;
+  height: 1050px;
 }
 
 .footer-top, .footer-right, .list-footer {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+}
+
+.pseo {
+  margin: 10px;
+  width: 95%;
+}
+
+.footer-left img {
+  margin: 10px;
 }
 
 input, textarea {
-  width: 100%
+  width: 90%
+}
+
+#up {
+  bottom: 20px;
+  right: 20px;
 }
 
 }

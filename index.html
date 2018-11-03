@@ -36,7 +36,7 @@
           <a href="#Contacts">CONTACTS</a>
         </li>
         <li>
-          <a href="#Avis Clients">AVIS CLIENTS</a>
+          <a href="#Avis_Clients">AVIS CLIENTS</a>
         </li>
       </ul>
       <ul>
@@ -48,51 +48,54 @@
   <header>
     <!--Illustration Principal-->
     <h1>Dégustons un monde plus juste</h1>
-    <button class="btn_1"><strong>NOS PRODUITS</strong></button>
+    <button href="Produits" class="btn_1"><strong>DÉCOUVREZ NOS PRODUITS</strong></button>
   </header>
-  <section class="container">
-    <!--Nos Avantages-->
-    <h2 id="Nos_Valeurs">Nos Valeurs</h2>
-    <p><strong>Nous nous engageons pour le commerce équitable : </strong></p>
 
+  <!--Nos Avantages-->
+  <section id="Nos_Valeurs" class="container">
+
+    <h2>Nos Valeurs</h2>
+
+    <div id="concept">
+      <p id="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><strong>Nous
+          nous engageons pour le commerce équitable : </strong></p>
+      <img src="image/concept.jpg">
+    </div>
+    <br>
 
     <div class="Avantages">
 
       <ul class="box">
-        <h4><i class="fas fa-seedling icon"></i> Environnemental</h4><br>
-        <ul>
-          <li>Réduction de l'impact sur les terres cultivées et environnantes.</li>
-          <li>Réduction des engrais et pesticides chimiques.</li>
-          <li>Certification Agriculture Biologique.</li>
-        </ul>
+        <i class="fas fa-seedling icon_1"></i><br>
+        <h2>Environnemental</h2><br>
+        <p>Certification Agriculture Biologique.</p>
+
       </ul>
 
-      <ul class="box">
-        <h4><i class="fas fa-hand-holding-usd icon"></i> Economique</h4><br>
-        <ul>
-          <li>Principe du "prix minimum d'achat".</li>
-          <li>Primes pour le développement social.</li>
-          <li>Préfinancement des récoltes.</li>
-        </ul>
-      </ul>
+      <div class="box">
+        <i class="fas fa-hand-holding-usd icon_1"></i><br>
+        <h2>Economique</h2><br>
 
-      <ul class="box">
-        <h4><i class="fas fa-hand-holding-heart icon"></i> Social</h4><br>
-        <ul>
-          <li>Regroupement en coopératives.</li>
-          <li>Accès à la santé, l'éducation, la formation.</li>
-          <li>Lutte contre l'exode rural.</li>
-        </ul>
-      </ul>
+        <p>Prix minimum d'achat.</p>
+
+      </div>
+
+      <div class="box">
+        <i class="fas fa-hand-holding-heart icon_1"></i><br>
+        <h2>Social</h2><br>
+        <p>Regroupement en coopératives.</p>
+
+      </div>
 
     </div>
   </section>
   <br>
 
   <!--Les Produits-->
-  <section class="bg_1">
+  <section class="bg_1" id="Produits">
     <div class="container">
-      <h2 class="white">Produits</h2>
+      <h2>Produits</h2>
 
       <div class="product-row">
 
@@ -105,11 +108,11 @@
             </div>
 
             <p class="description">
-              Thé vert BIO du Japon  <a href="#">Plus d'infos</a></p>
+              Thé vert BIO du Japon <a href="#">Plus d'infos</a></p>
 
             <div class="bouttons">
-              <a class="btn btn-buy" href="">ACHETER</a>
-              <a class="btn btn-fav" href=""><i class="far fa-star icon"></i></a>
+              <a class="btn btn-buy" href="#">AJOUTER AU PANIER</a>
+              <a class="btn btn-fav" href="#"><i class="far fa-star icon"></i></a>
             </div>
           </div>
         </article>
@@ -123,10 +126,10 @@
             </div>
 
             <p class="description">
-              Thé noir BIO d'Inde  <a href="#">Plus d'infos</a></p>
+              Thé noir BIO d'Inde <a href="#">Plus d'infos</a></p>
             <div class="bouttons">
-              <a class="btn btn-buy" href=""><i class="fas fa-cart-plus icon"></i></a>
-              <a class="btn btn-fav" href=""><i class="far fa-star icon"></i></a>
+              <a class="btn btn-buy" href="#">AJOUTER AU PANIER</a>
+              <a class="btn btn-fav" href="#"><i class="far fa-star icon"></i></a>
             </div>
           </div>
         </article>
@@ -140,10 +143,10 @@
             </div>
 
             <p class="description">
-              Thé noir BIO de Chine  <a href="#">Plus d'infos</a></p>
+              Thé noir BIO de Chine <a href="#">Plus d'infos</a></p>
             <div class="bouttons">
-              <a class="btn btn-buy" href="">ACHETHÉ</a>
-              <a class="btn btn-fav" href=""><i class="far fa-star icon"></i></a>
+              <a class="btn btn-buy" href="#">AJOUTER AU PANIER</a>
+              <a class="btn btn-fav" href="#"><i class="far fa-star icon"></i></a>
             </div>
           </div>
 
@@ -152,18 +155,17 @@
       </div>
     </div>
   </section>
-  <br>
 
   <section class="bg-red">
     <div class="container promo">
       <h2>FRAIS DE LIVRAISONS OFFERT A PARTIR DE 50€</h2>
-      <button class="btn_1"><strong>NOS PRODUITS</strong></button>
+      <button href="Produits" class="btn_1"><strong>NOS PRODUITS</strong></button>
     </div>
   </section>
 
   <!--Réseau Sociaux-->
   <div class="bg_green">
-    <section class="container adapt">
+    <section class="container" id="Contacts">
       <div class="row">
         <h2>Contacts</h2>
         <div class="social">
@@ -175,7 +177,7 @@
       </div>
       <div class="newsletter">
         <p>
-          <label for="Email">Tenez-vous informé(e) de l'actualité de TEA WORLD en vous abonnant à notre newsletter :</label>
+          <label for="Email">Tenez-vous informé(e) de l'actualité de TEA WORLD en vous abonnant à notre newsletter :<br></label>
           <input type="email" name="Email" id="Email" placeholder="Votre Email">
           <input class="button" type="submit" value="Envoyer" name="submit">
         </p>
@@ -184,13 +186,13 @@
     </section>
   </div>
   <br>
-  <section class="container adapt_2">
+  <section class="container adapt_2" id="Avis_Clients">
     <h2>Avis Clients</h2>
     <div class="avis">
 
-      <div class="box">
+      <div class="box border_clients">
         <div class="clients">
-          <h3>Céline</h3>
+          <div><h3>Céline</h3><img src="image/client-1.png"></div>
           <p class="star">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -199,13 +201,13 @@
             <i class="fas fa-star-half-alt"></i>
           </p>
         </div>
-        <p><br>Très bonne découverte.<br></p>
+        <p>Très bonne découverte.<br></p>
 
       </div>
 
-      <div class="box">
+      <div class="box border_clients">
         <div class="clients">
-          <h3>Pierre</h3>
+          <div><h3>Pierre</h3><img src="image/client-2.jpg"></div>
           <p class="star">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -214,13 +216,13 @@
             <i class="fas fa-star"></i>
           </p>
         </div>
-        <p><br>Excellent, livraison rapide.</p>
+        <p>Excellent, livraison rapide.</p>
 
       </div>
 
-      <div class="box">
+      <div class="box border_clients">
         <div class="clients">
-          <h3>Jean</h3>
+          <div><h3>Jean</h3><img src="image/client-3.png"></div>
           <p class="star">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -229,7 +231,7 @@
             <i class="far fa-star"></i>
           </p>
         </div>
-        <p><br>Produits de qualité. très satisfait.<br></p>
+        <p>Produits de qualité. très satisfait.<br></p>
 
       </div>
 
@@ -241,9 +243,8 @@
     <div class="container">
       <div class="footer-top">
         <div class="footer-left">
-          <p class="p-seo">Tea World propose un vaste choix <br>de thés de qualité BIO certifiés Ecocert, <br>en étant fortement impliqué <br>à maintenir et à démocratiser le <br>concept de commerce équitable.</p>
-          <img src="image/">
-
+          <p class="p-seo">Tea World propose un vaste choix de thés de qualité BIO certifiés Ecocert, en étant fortement impliqué à maintenir et à démocratiser le concept de commerce équitable.</p>
+          <div><img src="image/Logo.png"></div>
         </div>
         <form>
           <h2 class="form-title">Suggestions</h2>
@@ -262,6 +263,7 @@
       </div>
 
     </div>
+
     <section class="list-footer">
       <ul>
         <h6>NOUS</h6>
@@ -287,7 +289,10 @@
     </div>
     <p class="copyright">CopyRight© 2018 - Tea World</p>
 
+    <a href="#"></a>
   </footer>
+  <a id="up" href="#"><i class="fas fa-chevron-circle-up"></i></a>
+
 </body>
 
 </html>
