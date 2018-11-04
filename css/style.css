@@ -146,6 +146,10 @@ h2 {
   width: 500px;
 }
 
+#img_concept {
+  width: 100%;
+}
+
 .Avantages {
   display: flex;
   flex-direction: row;
@@ -392,7 +396,7 @@ input.button:hover {
 }
 
 .footer-top p.p-seo {
-  padding: 40px 20px 0 0;
+  padding: 40px 0 0 0;
   text-align: justify;
   color: white;
   width: 500px;
